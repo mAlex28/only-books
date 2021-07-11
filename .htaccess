@@ -1,0 +1,1 @@
+ErrorDocument 404 https://only-books-bookstore.herokuapp.com/404.php
