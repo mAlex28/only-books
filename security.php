@@ -2,12 +2,12 @@
 // session_start();
 // include('includes/dbconfig.inc.php');
 
-// if ($dbconfig) {
+// if ($conn) {
 //     // echo "Database connected";
 // } else {
-//     header("Location: database/dbconfig.php");
+//     // header("Location: database/dbconfig.php");
 // }
 
-// if (!$_SESSION['username']) {
-//     header('Location: ./index.php');
-// }
+// // if (!$_SESSION['username']) {
+// //     // header('Location: ./index.php');
+// // }
