@@ -45,7 +45,7 @@
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a href="pages/widgets.html" class="nav-link">
+                      <a href="books.php" class="nav-link">
                           <i class="nav-icon fas fa-book"></i>
                           <p>
                               Books
@@ -64,13 +64,13 @@
                       </a>
                       <ul class="nav nav-treeview">
                           <li class="nav-item">
-                              <a href="pages/charts/chartjs.html" class="nav-link">
+                              <a href="admins.php" class="nav-link">
                                   <i class="far fa-user-shield nav-icon"></i>
                                   <p>Admins</p>
                               </a>
                           </li>
                           <li class="nav-item">
-                              <a href="pages/charts/flot.html" class="nav-link">
+                              <a href="customers.php" class="nav-link">
                                   <i class="far fa-user-friends nav-icon"></i>
                                   <p>Customers</p>
                               </a>
@@ -79,7 +79,7 @@
                   </li>
 
                   <li class="nav-item">
-                      <a href="pages/widgets.html" class="nav-link">
+                      <a href="orders.php" class="nav-link">
                           <i class="nav-icon fas fa-money-bill"></i>
                           <p>
                               Orders
@@ -89,7 +89,7 @@
                   </li>
 
                   <li class="nav-item">
-                      <a href="pages/widgets.html" class="nav-link">
+                      <a href="reviews.php" class="nav-link">
                           <i class="nav-icon fas fa-newspaper"></i>
                           <p>
                               Reviews
@@ -99,7 +99,7 @@
                   </li>
 
                   <li class="nav-item">
-                      <a href="pages/widgets.html" class="nav-link">
+                      <a href="messages.php" class="nav-link">
                           <i class="nav-icon fas fa-envelope"></i>
                           <p>
                               Messages
