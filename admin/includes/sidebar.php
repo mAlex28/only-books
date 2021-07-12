@@ -56,7 +56,7 @@
 
                   <li class="nav-item">
                       <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-chart-pie"></i>
+                          <i class="nav-icon fas fa-users"></i>
                           <p>
                               Users
                               <i class="right fas fa-angle-left"></i>
@@ -80,7 +80,7 @@
 
                   <li class="nav-item">
                       <a href="pages/widgets.html" class="nav-link">
-                          <i class="nav-icon fas fa-book"></i>
+                          <i class="nav-icon fas fa-money-bill"></i>
                           <p>
                               Orders
 
@@ -90,7 +90,7 @@
 
                   <li class="nav-item">
                       <a href="pages/widgets.html" class="nav-link">
-                          <i class="nav-icon fas fa-book"></i>
+                          <i class="nav-icon fas fa-newspaper"></i>
                           <p>
                               Reviews
 
@@ -100,7 +100,7 @@
 
                   <li class="nav-item">
                       <a href="pages/widgets.html" class="nav-link">
-                          <i class="nav-icon fas fa-book"></i>
+                          <i class="nav-icon fas fa-envelope"></i>
                           <p>
                               Messages
 
