@@ -21,6 +21,6 @@ if (isset($_POST['adminLoginBtn'])) {
     } else {
 
         $_SESSION['status'] = "Invalid credentials";
-        header('Location: ../joinus.php');
+        header('Location: login.php');
     }
 }
