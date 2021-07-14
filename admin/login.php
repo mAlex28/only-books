@@ -7,7 +7,7 @@ include('includes/header.php');
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a href="#"><img src="../assets/img/logo_svg.svg" alt=""></a>
+            <a href="#">OnlyBooks</a>
         </div>
         <!-- /.login-logo -->
         <div class="card">
@@ -21,7 +21,7 @@ include('includes/header.php');
                 ?>
                 <form action="adminlogin.php" method="post">
                     <div class="input-group mb-3">
-                        <input type="email" name="email" class="form-control" placeholder="Email">
+                        <input type="text" name="username" class="form-control" placeholder="username">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-envelope"></span>
