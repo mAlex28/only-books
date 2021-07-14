@@ -1,13 +1,13 @@
 <?php
 // include('../includes/dbconfig.inc.php');
-include('../includes/header.php');
+include('includes/header.php');
 
 ?>
 
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a href="../../index2.html"><b>Admin</b>LTE</a>
+            <a href=""><b>Admin</b>LTE</a>
         </div>
         <!-- /.login-logo -->
         <div class="card">
@@ -60,10 +60,10 @@ include('../includes/header.php');
                 <!-- /.social-auth-links -->
 
                 <p class="mb-1">
-                    <a href="forgot-password.html">I forgot my password</a>
+                    <a href="">I forgot my password</a>
                 </p>
                 <p class="mb-0">
-                    <a href="register.html" class="text-center">Register a new membership</a>
+                    <a href="" class="text-center">Register a new membership</a>
                 </p>
             </div>
             <!-- /.login-card-body -->
@@ -72,7 +72,5 @@ include('../includes/header.php');
     <!-- /.login-box -->
 
     <?php
-    include('../includes/script.php');
-
-
+    include('includes/script.php');
     ?>
