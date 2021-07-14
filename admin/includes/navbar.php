@@ -48,9 +48,12 @@
                       <i class="fas fa-user mr-2"></i> Profile
                   </a>
                   <div class="dropdown-divider"></div>
-                  <a href="#" class="dropdown-item">
-                      <i class="fas fa-sign-out-alt mr-2"></i> Logout
-                  </a>
+                  <form action="adminlogout.php" method="POST">
+                      <a href="#" class="dropdown-item">
+                          <i class="fas fa-sign-out-alt mr-2"></i> <button type="submit" name="adminLogoutBtn">Logout</button>
+                      </a>
+                  </form>
+
               </div>
           </li>
           <li class="nav-item">
