@@ -1,6 +1,6 @@
 <?php
 
-include('../includes/security.php');
+include('adminsecurity.php');
 
 if (isset($_POST['adminLoginBtn'])) {
     $adminLogin = $_POST['username'];

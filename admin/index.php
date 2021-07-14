@@ -1,5 +1,5 @@
   <?php
-    include('../includes/security.php');
+    include('adminsecurity.php');
     include('includes/header.php');
     include('includes/navbar.php');
     include('includes/sidebar.php');
