@@ -8,6 +8,6 @@ if ($conn) {
     header("Location: database/dbconfig.inc.php");
 }
 
-if (!$_SESSION['username']) {
-    header('Location: ./index.php');
-}
+// if (!$_SESSION['username']) {
+//     header('Location: ./index.php');
+// }
