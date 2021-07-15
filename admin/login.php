@@ -7,7 +7,8 @@ include('includes/header.php');
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a href="#">OnlyBooks</a>
+            <a href="#">
+                <img src="../assets/img/logo_svg.svg" alt="Admin Logo" class="brand-image elevation-3" style="opacity: .8"> OnlyBooks Admin</a>
         </div>
         <!-- /.login-logo -->
         <div class="card">
