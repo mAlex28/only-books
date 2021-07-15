@@ -11,11 +11,13 @@ if (isset($_POST['adminLoginBtn'])) {
     $usertype = mysqli_fetch_array($query_run);
 
     if ($usertype['role'] == 1) {
-        $_SESSION['username'] = $adminLogin;
-        header('Location: index.php');
-    } else {
+        echo "redirect to panel";
 
-        $_SESSION['status'] = "Invalid credentials";
-        header('Location: login.php');
+        // $_SESSION['username'] = $adminLogin;
+        // header('Location: index.php');
+    } else {
+        echo "error";
+        // $_SESSION['status'] = "Invalid credentials";
+        // header('Location: login.php');
     }
 }
