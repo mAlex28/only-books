@@ -12,6 +12,7 @@ $conn = new mysqli($server, $username, $password, $db);
 // $dbconfig = mysqli_select_db($conn, $db);
 
 if ($conn) {
+    echo "connected";
 } else {
     echo '
     <div class="container-fluid">
