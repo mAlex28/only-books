@@ -1,4 +1,7 @@
 <?php
+error_reporting();
+ini_set('display_errors', 1);
+
 
 include('adminsecurity.php');
 
