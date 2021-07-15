@@ -14,10 +14,11 @@ if (isset($_POST['adminLoginBtn'])) {
 
         $_SESSION['username'] = $adminLogin;
         header('Location: index.php');
-    } else if ($usertype['role'] == 2) {
+        // } else if ($usertype['role'] == 2) {
 
-        $_SESSION['username'] = $adminLogin;
-        header('Location: ../index.php');
+        //     $_SESSION['username'] = $adminLogin;
+        //     header('Location: ../index.php');
+        // 
     } else {
 
         $_SESSION['status'] = "Invalid credentials";
