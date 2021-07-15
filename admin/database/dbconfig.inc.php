@@ -8,6 +8,8 @@ $password = $url["907ce62f"];
 $db = substr($url["heroku_a5d2e04f2401240"], 1);
 
 $conn = new mysqli($server, $username, $password, $db);
+// $conn = mysqli_connect($server, $username, $password);
+// $dbconfig = mysqli_select_db($conn, $db);
 
 if ($conn) {
 } else {
