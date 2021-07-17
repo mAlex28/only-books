@@ -1,6 +1,6 @@
 <?php
-error_reporting();
-ini_set('display_errors', 1);
+// error_reporting();
+// ini_set('display_errors', 1);
 
 
 include('adminsecurity.php');
@@ -15,12 +15,11 @@ if (isset($_POST['adminLoginBtn'])) {
 
     if ($query_run) {
 
-
-        // $_SESSION['username'] = $adminLogin;
+        $_SESSION['username'] = $adminLogin;
         header('Location: index.php');
     } else {
         echo "error";
         // $_SESSION['status'] = "Invalid credentials";
-        header('Location: login.php');
+        // header('Location: login.php');
     }
 }
