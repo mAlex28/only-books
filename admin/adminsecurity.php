@@ -3,7 +3,7 @@ session_start();
 include('database/dbconfig.inc.php');
 
 if ($conn) {
-    // echo "Database connected";
+    echo "Database security connected";
 } else {
     header("Location: database/dbconfig.inc.php");
 }
