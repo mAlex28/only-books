@@ -10,7 +10,7 @@ $db = substr($url["heroku_a5d2e04f2401240"], 1);
 $conn = new mysqli($server, $username, $password, $db);
 
 if ($conn) {
-    echo "connected";
+    // echo "connected";
 } else {
     echo '
     <div class="container-fluid">
