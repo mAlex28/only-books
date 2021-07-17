@@ -6,10 +6,19 @@ $server = $url["us-cdbr-east-04.cleardb.com"];
 $username = $url["b03e9607efe9db"];
 $password = $url["907ce62f"];
 $db = substr($url["heroku_a5d2e04f2401240"], 1);
-
 $conn = new mysqli($server, $username, $password, $db);
-// $conn = mysqli_connect($server, $username, $password);
-// $dbconfig = mysqli_select_db($conn, $db);
+
+// try {
+//     $pdo = new PDO("mysql:host=" . $server . "; dbname=" . $db, $username, $password);
+//     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+//     foreach ($pdo->query('SELECT title FROM news') as $row) {
+//         echo htmlentities($row['title']);
+//     }
+//     $pdo = null;
+// } catch (PDOException $e) {
+//     print "Error!: " . $e->getMessage() . "<br/>";
+//     die();
+// }
 
 if ($conn) {
     echo "connected";
